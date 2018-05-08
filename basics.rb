@@ -21,8 +21,8 @@
 
 
 def age_in_days(day, month, year)
-  (Date.today - Date.new(year, month, day)).to_i
-  return day, month, year
+ (Date.today - Date.new(1997, 04, 15)).to_i
+ return day, month, year
 end
 
-puts age_in_days()
+puts age_in_days(15,04,1997)
