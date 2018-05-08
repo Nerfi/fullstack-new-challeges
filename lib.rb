@@ -1,3 +1,6 @@
-def method_name(radious)
+def circle_area(radious)
+if radious < 0
+  return 0
+else
 
 end
